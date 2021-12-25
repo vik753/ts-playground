@@ -11,3 +11,4 @@ const getKey = <T extends object, U extends keyof T>(obj: T, value: T[U]) =>
 console.log(getValue(user, 'age'));
 
 console.log(getKey(user, 'John'));
+console.log(getKey(user, 22));
